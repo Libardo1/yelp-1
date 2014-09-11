@@ -3,7 +3,7 @@ Thumbs.db
 ehthumbs.db
 
 # The Yelp Dataset
-yelp_data
+yelp_data*
 
 # Folder config file
 Desktop.ini

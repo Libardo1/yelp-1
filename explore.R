@@ -1,2 +1,3 @@
-# Explore the Yelp Dataset
+require(RJSONIO)
 
+fromJSON(toJSON(rnorm(10000)))
