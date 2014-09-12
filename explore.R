@@ -1,3 +1,6 @@
 require(RJSONIO)
 
-fromJSON(toJSON(rnorm(10000)))
+con <- file("yelp_data.json")
+open(con)
+
+str(sapply(readLines(con, 5), fromJSON))
